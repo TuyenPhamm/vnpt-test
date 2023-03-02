@@ -1,0 +1,121 @@
+
+/* Mobile */
+@media (max-width: 376px) {
+.slider2{
+    width: 100%;
+
+}
+#main{
+    width: 100%;
+}
+.body{
+    width: 100%;
+}
+
+.icon-header{
+    display: none;
+}
+.icon-gaka{
+    display: flex;
+    margin-left: 10px
+}
+.input-search{
+    display: none;
+}
+.submit-search{
+    margin-left: 110px;
+}
+.icon-search{
+    margin-left: 63px;
+}
+.icon-menu{
+    display: flex;
+    margin-left: 15px;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+}
+#slider{
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/Rectangle\ 406.png);
+    background-size: cover;
+    background-position: center center;
+    font-family: 'SVN-Poppins';
+    font-style: normal;
+}
+.text-content{
+    width: 100%;
+    padding: 0 17px;
+
+}
+.body-container{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    padding: 16px
+}
+.text-heading{
+    font-size: 24px;
+}
+.img-res{
+    width: 100%;
+    display: block;
+}
+.theloai{
+    width: 100%;
+}
+.text-theloai{
+    width: 100%;
+}
+.slider2{
+    width: 100%;
+    padding: 0;
+}
+.img-slider:first-child{
+    margin: 0;
+}
+.menu-body{
+    padding: 0 17px;
+}
+.img-game{
+    width: calc(100%/3);
+}
+.game-body1{
+    width: 100%;
+    padding: 0 17px;
+}
+
+.col-third{
+    width: 47% !important;
+}
+.col-third > img{
+    width: 100%;
+}
+.col-third.img-game:nth-of-type(2n + 1){
+    margin-right: 15px;
+}
+.col-for{
+    width: 47% !important;
+}
+.game-body3{
+    padding: 0 17px;
+}
+.col-for > img{
+    width: 100%;
+
+}
+.col-for.img-game:nth-of-type(2n + 1){
+    margin-right: 15px;
+}
+
+/* .bd1-res{
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 12px;
+} */
+
+}
