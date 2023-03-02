@@ -110,6 +110,32 @@
     margin-right: 15px;
 }
 
+.partner{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.footer{
+    width: 100%;
+    padding: 0 17px;
+}
+.footer1{
+    flex-direction: column;
+}
+.vme{
+    width: 84px;
+    height: 27px;
+    margin: 20px auto 30px ;
+}
+.footer2{
+    width: 100%;
+}
+.info-footer{
+    flex-direction: column;
+}
+.folow{
+    flex-direction: column;
+}
 /* .bd1-res{
     width: calc(100%/3);
     display: flex;
