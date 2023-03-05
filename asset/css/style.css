@@ -463,19 +463,21 @@
     display: none;
 }
 
-.modal-menu {
+/* .modal-menu {
     width: 300px;
     background: #F4F5F7;
-
     background:rgba(0,0,0,0.4);
     display: none;
-}
+} */
 .modal-menu{
     width: 300px;
     background:  #F4F5F7;
     height: 100%;
     top: 0;
     left: 0;
+}
+.modal-close{
+    display: none;
 }
 .open {
     display: flex;
