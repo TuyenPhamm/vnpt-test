@@ -4,7 +4,17 @@
         justify-content: start;
         width: 100%;
         padding: 0;
+            overflow-x: auto;
+    overflow-y: hidden;
     }
+}
+@media (max-width: 376px) {
+.slider2{
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}   
+
 
     #main {
         width: 100%;
@@ -148,9 +158,11 @@
         height: auto;
         padding: 16px
     }
-    /* .partner{
-        margin: 30px -8px 0 -8px;
-    } */
+    .slider2{
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }   
 
 }
 
@@ -166,12 +178,22 @@
         justify-content: center;
         width: 100%;
     }
+    .slider2{
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }   
 
 }
 @media (max-width: 768px) {
     .nav-a {
         font-size: 8px;
     }
+    .slider2{
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }   
 
 }
 
@@ -188,4 +210,9 @@
     #nav {
         display: block;
     }
+    .slider2{
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }   
 }

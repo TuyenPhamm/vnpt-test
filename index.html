@@ -24,19 +24,19 @@
 
                 </li>
                 <li class="icon-header viethoa">
-                    <img src="./asset/css/img/Vector (1).png" alt="">
+                    <img src="./asset/css/img/gifcode.png" alt="">
                     <a class="nav-a" href="">Giftcode</a>
                 </li>
                 <li class="icon-header viethoa">
-                    <img src="./asset/css/img/Vector (2).png" alt="">
+                    <img src="./asset/css/img/giaidau.png" alt="">
                     <a class="nav-a" href="">Giải đấu</a>
                 </li>
                 <li class="icon-header viethoa">
-                    <img src="./asset/css/img/Vector (3).png" alt="">
+                    <img src="./asset/css/img/vip.png" alt="">
                     <a class="nav-a" href="">Đặc quyền vip</a>
                 </li>
                 <li class="icon-header viethoa ">
-                    <img class="icon-nap" src="./asset/css/img/Vector (4).png" alt="">
+                    <img class="icon-nap" src="./asset/css/img/nap.png" alt="">
                     <a class="nav-a" href="">nạp gạo</a>
                 </li>
             </ul>
@@ -341,7 +341,7 @@
                     <img src="./asset/css/img/body/partner/momo.png" alt="">
                 </div>
             </div>
-    
+
             <div class="footer">
                 <div class="footer1">
                     <img class="vme" src="./asset/css/img/footer/Rectangle 4819.png" alt="">
@@ -351,7 +351,7 @@
                         VAT included in all prices where applicable.
                     </span>
                 </div>
-    
+
                 <div class="footer2">
                     <div class="folow">
                         <p class="viethoa ">info</p>
@@ -376,6 +376,67 @@
                 </div>
             </div>
         </div>
+
+        <div class="modal  js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-menu">
+                    <div class="modal-gaka">
+                        <img src="./asset/css/img/Rectangle 4821.png" alt="">
+                    </div>
+                    <div class="modal-pick-menu">
+                        <div class="img-menu">
+                            <img src="./asset/css/img/responsive/menu_responsive/game.png" alt="">
+                            <span class=" viethoa text-modal">GAME</span>
+                        </div>
+                        <div class="img-menu">
+                            <img src="./asset/css/img/responsive/menu_responsive/gifcode.png" alt="">
+                            <span class=" viethoa text-modal">Giftcode</span>
+                        </div>
+                        <div class="img-menu">
+                            <img src="./asset/css/img/responsive/menu_responsive/giaidau.png" alt="">
+                            <span class=" viethoa text-modal">Giải đấu</span>
+                        </div>
+                        <div class="img-menu">
+                            <img src="./asset/css/img/responsive/menu_responsive/vip.png" alt="">
+                            <span class=" viethoa text-modal">Đặc quyền vip</span>
+                        </div>
+                        <div class="img-menu">
+                            <img src="./asset/css/img/responsive/menu_responsive/nap.png" alt="">
+                            <span class=" viethoa text-modal">Nạp gạo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-close js-modal-close">
+                    <a href=""><img src="./asset/css/img/responsive/menu_responsive/close.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            const Menu = document.querySelector('.js-menu')
+            const modal = document.querySelector('.js-modal')
+            const modalClose = document.querySelector('.js-modal-close')
+            const modalContainer = document.querySelector('.js-modal-container')
+
+            function showMenu() {
+                modal.classList.add('open')
+            }
+
+            function hideMenu() {
+                modal.classList.remove('open')
+            }
+
+            Menu.addEventListener('click', showMenu)
+
+
+            modalClose.addEventListener('click', hideMenu)
+            modal.addEventListener('click', hideMenu)
+            modalContainer.addEventListener('click', function (event) {
+                event.stopPropagation()
+            })
+        </script>
+
 
 
     </div>

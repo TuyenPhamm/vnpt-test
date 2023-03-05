@@ -231,6 +231,7 @@
     overflow-x: auto;
     overflow-y: hidden;
     /* justify-content: center; */
+    overflow: hidden;
     justify-content: start;
 
 }
@@ -450,8 +451,6 @@
     display: none;
 }
 
-
-
 /* modal */
 .modal {
     position: fixed;
@@ -467,11 +466,17 @@
 .modal-menu {
     width: 300px;
     background: #F4F5F7;
+
+    background:rgba(0,0,0,0.4);
+    display: none;
+}
+.modal-menu{
+    width: 300px;
+    background:  #F4F5F7;
     height: 100%;
     top: 0;
     left: 0;
 }
-
 .open {
     display: flex;
 }
@@ -496,5 +501,23 @@
 }
 
 .modal-container {
+    display: flex;
+}
+.open{
+    display: flex;
+}
+
+.modal-gaka{
+    padding: 23px 17px;
+    background: #fff;
+}
+.modal-pick-menu{
+    margin-top: 8px;
+    background: #fff;
+}
+.img-menu{
+    padding: 15px;
+}
+.modal-container{
     display: flex;
 }
